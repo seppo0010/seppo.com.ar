@@ -1,0 +1,220 @@
+[
+   {
+      "description" : "Página para asistir al estudiante de derecho a encontrar comisiones convenientes.",
+      "name" : "Inscripción derecho",
+      "repository" : "https://github.com/seppo0010/derecho-inscripcion2",
+      "tags" : [
+         "web",
+         "react",
+         "scraping"
+      ],
+      "url" : "https://seppo0010.github.io/derecho-inscripcion2/"
+   },
+   {
+      "description" : "Página para asistir al estudiante de abogacía de la UBA a elegir a qué materias anotarse",
+      "name" : "Plan derecho",
+      "repository" : "https://github.com/seppo0010/derecho-plan3",
+      "tags" : [
+         "web",
+         "react"
+      ],
+      "url" : "https://seppo0010.github.io/derecho-plan3/"
+   },
+   {
+      "description" : "Agenda deportiva de Olé en formato ICS",
+      "name" : "Agenda deportiva",
+      "repository" : "https://github.com/seppo0010/agenda-deportiva/",
+      "tags" : [
+         "scraping",
+         "gh-actions"
+      ],
+      "url" : "https://seppo0010.github.io/agenda-deportiva/"
+   },
+   {
+      "description" : "Jurisprudencia de la Corte Suprema en formato RSS",
+      "name" : "SAIJ to RSS",
+      "repository" : "https://github.com/seppo0010/saij-to-rss",
+      "tags" : [
+         "scraping"
+      ]
+   },
+   {
+      "description" : "Lector de diarios",
+      "name" : "Clarinete",
+      "repository" : "https://github.com/seppo0010/clarinete",
+      "tags" : [
+         "scraping",
+         "web",
+         "react"
+      ],
+      "url" : "https://clarinete.seppo.com.ar/"
+   },
+   {
+      "description" : "Vista de expedientes de la Justicia de la Ciudad de Buenos Aires",
+      "name" : "Juscaba web",
+      "repository" : "https://github.com/seppo0010/lenguajeinclusivo",
+      "tags" : [
+         "scraping",
+         "web",
+         "react"
+      ],
+      "url" : "https://seppo0010.github.io/lenguajeinclusivo/"
+   },
+   {
+      "description" : "Notificador de novedades en expedientes de la Justicia de la Ciudad de Buenos Aires",
+      "name" : "Juscaba Telegram",
+      "repository" : "https://github.com/seppo0010/juscaba-to-telegram",
+      "tags" : [
+         "scraping",
+         "telegram"
+      ]
+   },
+   {
+      "description" : "Análisis y modelo predictivo de sueldos",
+      "name" : "Sysarmy Sueldos 2020.1",
+      "repository" : "https://github.com/seppo0010/sysarmy-sueldos-2020.1/",
+      "tags" : [
+         "data",
+         "web",
+         "react"
+      ],
+      "url" : "https://seppo0010.github.io/sysarmy-sueldos-2020.1/"
+   },
+   {
+      "description" : "Extractor de CBU de imágenes y PDFs",
+      "name" : "Leeme el CBU",
+      "repository" : "https://github.com/seppo0010/leemeelcbu.com",
+      "tags" : [
+         "web"
+      ],
+      "url" : "https://seppo0010.github.io/leemeelcbu.com/"
+   },
+   {
+      "description" : "Portal de memes extraído de un grupo de Telegram",
+      "name" : "Padded Memes",
+      "repository" : "https://github.com/seppo0010/paddedmemes.com",
+      "tags" : [
+         "web",
+         "react",
+         "telegram"
+      ],
+      "url" : "https://paddedmemes.com/"
+   },
+   {
+      "description" : "Buscador de diálogos en BoJack Horseman y otras series",
+      "name" : "A Crossover Episode",
+      "repository" : "https://github.com/seppo0010/acrossoverepisode.com",
+      "tags" : [
+         "web",
+         "react"
+      ],
+      "url" : "https://acrossoverepisode.com/"
+   },
+   {
+      "description" : "Medido de precisión de pronóstico metereológico",
+      "name" : "meteopifie",
+      "repository" : "https://github.com/seppo0010/meteopifie",
+      "tags" : [
+         "telegram",
+         "scraping"
+      ],
+      "telegram" : "https://t.me/meteopifie"
+   },
+   {
+      "description" : "Reproductor de videos, optimizado para Smart TVs",
+      "name" : "myfilesplayer",
+      "repository" : "https://github.com/seppo0010/myfilesplayer",
+      "tags" : [
+         "web",
+         "react"
+      ]
+   },
+   {
+      "description" : "Soluciones del juego Human Resource Machine",
+      "name" : "Human Resource Machine answers",
+      "repository" : "https://github.com/seppo0010/hrm",
+      "tags" : [
+         "puzzle"
+      ]
+   },
+   {
+      "description" : "Soluciones de problemas de Project Euler",
+      "name" : "Project Euler answers",
+      "repository" : "https://github.com/seppo0010/Euler",
+      "tags" : [
+         "puzzle"
+      ]
+   },
+   {
+      "description" : "Creador de grafos para tomar notas",
+      "name" : "graphmaker",
+      "repository" : "https://github.com/seppo0010/graphmaker",
+      "tags" : [
+         "web",
+         "react"
+      ],
+      "url" : "https://seppo0010.github.io/graphmaker/"
+   },
+   {
+      "description" : "Crear un árbol de decisión de recomendaciones de películas",
+      "name" : "movies recommend cart",
+      "repository" : "https://github.com/seppo0010/movies-recommend-cart/",
+      "tags" : [
+         "web",
+         "react",
+         "data"
+      ],
+      "url" : "https://seppo0010.github.io/movies-recommend-cart/"
+   },
+   {
+      "description" : "Reimplementación de Redis en Rust",
+      "name" : "rsedis",
+      "repository" : "https://github.com/seppo0010/rsedis",
+      "tags" : []
+   },
+   {
+      "description" : "Reimplementación de Redis en archivo",
+      "name" : "rlite",
+      "repository" : "https://github.com/seppo0010/rlite",
+      "tags" : []
+   },
+   {
+      "description" : "Análisis de preferencia de hornallas",
+      "name" : "hornallas",
+      "repository" : "https://github.com/seppo0010/hornallas",
+      "tags" : [
+         "data"
+      ],
+      "url" : "https://seppo0010.github.io/hornallas/"
+   },
+   {
+      "description" : "Router implementado en golang",
+      "name" : "vortices",
+      "repository" : "https://github.com/seppo0010/vortices",
+      "tags" : []
+   },
+   {
+      "description" : "Programming concepts explained with analogies",
+      "name" : "Programming Concepts in the Real World",
+      "repository" : "https://github.com/seppo0010/pcitrw",
+      "tags" : [
+         "content"
+      ],
+      "url" : "http://seppo0010.github.io/pcitrw/"
+   },
+   {
+      "description" : "Juego para describir un concepto usando conceptos sencillos",
+      "name" : "Notion",
+      "repository" : "https://github.com/seppo0010/notion",
+      "tags" : [
+         "web"
+      ],
+      "url" : "https://seppo0010.github.io/notion/"
+   },
+   {
+      "description" : "node.js API implementada sobre iOS",
+      "name" : "nios",
+      "repository" : "https://github.com/seppo0010/nios",
+      "tags" : []
+   }
+]

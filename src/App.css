@@ -1,0 +1,16 @@
+.project {
+  margin: 4px 0;
+  padding: 8px;
+}
+
+.projectHeader {
+  display: flex;
+}
+
+.projectHeader h2 {
+  flex-grow: 1;
+}
+
+.projectHeader a {
+  color: #333;
+}
