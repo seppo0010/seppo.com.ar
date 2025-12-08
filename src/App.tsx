@@ -122,7 +122,7 @@ const Portfolio = () => {
         </section>
         
         <footer className="mt-24 pt-8 border-t border-slate-100 text-center text-slate-400 text-sm">
-          <p>© {new Date().getFullYear()} Sebastián A. Waisbrot</p>
+          <p>© {new Date().getFullYear()} Sebastián Ariel Waisbrot</p>
         </footer>
 
       </main>
