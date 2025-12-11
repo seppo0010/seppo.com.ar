@@ -118,6 +118,27 @@ const Portfolio = () => {
               </div>
             </article>
 
+            <article className="group relative pl-4 border-l-2 border-transparent hover:border-slate-300 transition-colors">
+              <div className="flex justify-between items-baseline mb-2">
+                <a 
+                  href="https://seppo0010.github.io/ley-omnibus/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-xl font-serif font-bold text-slate-900 group-hover:underline decoration-1 underline-offset-4"
+                >
+                  Ley Bases comparada
+                </a>
+              </div>
+              <p className="text-slate-600 mb-3 leading-relaxed">
+                Web para mostrar fácilmente los cambios normativos introducidos por el proyecto de Ley de Bases y Puntos de Partida para la Libertad de los Argentinos. 
+              </p>
+              <div className="flex gap-3 text-xs font-mono text-slate-500 uppercase tracking-tight">
+                <span>Full Stack</span>
+                <span>•</span>
+                <span>2024</span>
+              </div>
+            </article>
+
           </div>
         </section>
         
