@@ -3,7 +3,7 @@ import { Mail, FileText, Code, Linkedin, BookOpen } from 'lucide-react';
 const Portfolio = () => {
   return (
     <div className="min-h-screen bg-[#fcfcfc] text-slate-900 font-sans py-20 px-6 selection:bg-slate-200">
-      
+
       <main className="max-w-2xl mx-auto">
 
         <header className="mb-16">
@@ -37,7 +37,7 @@ const Portfolio = () => {
           <h2 className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-6 flex items-center gap-2">
             <BookOpen size={14} /> Docencia
           </h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white border border-slate-100 p-5 rounded-sm shadow-sm">
               <h3 className="font-bold text-slate-800 mb-1">Justicia Digital</h3>
@@ -65,18 +65,63 @@ const Portfolio = () => {
           </div>
         </section>
 
+
+        <section className="mb-16">
+          <h2 className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-8 flex items-center gap-2">
+            <FileText size={14} /> Presentaciones Seleccionadas
+          </h2>
+
+          <div className="space-y-12">
+
+            <article className="group relative pl-4 border-l-2 border-transparent hover:border-slate-300 transition-colors">
+              <div className="flex justify-between items-baseline mb-2">
+                <a
+                  href="https://www.youtube.com/watch?v=iYJpMsHKvwM"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xl font-serif font-bold text-slate-900 group-hover:underline decoration-1 underline-offset-4"
+                >
+                  Jornadas de IA y Derechos Humanos del CIPDH
+                </a>
+              </div>
+              <div className="flex gap-3 text-xs font-mono text-slate-500 uppercase tracking-tight">
+                <span>Webinario Inteligencia Artificial y Derechos Humanos</span>
+                <span>•</span>
+                <span>2024</span>
+              </div>
+            </article>
+
+            <article className="group relative pl-4 border-l-2 border-transparent hover:border-slate-300 transition-colors">
+              <div className="flex justify-between items-baseline mb-2">
+                <a
+                  href="https://www.youtube.com/watch?v=PuuPAZ6fiUk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xl font-serif font-bold text-slate-900 group-hover:underline decoration-1 underline-offset-4"
+                >
+                  Desmitificando machine learning
+                </a>
+              </div>
+              <div className="flex gap-3 text-xs font-mono text-slate-500 uppercase tracking-tight">
+                <span>BuzzConf BA</span>
+                <span>•</span>
+                <span>2024</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
         <section>
           <h2 className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-8 flex items-center gap-2">
             <FileText size={14} /> Proyectos Destacados
           </h2>
 
           <div className="space-y-12">
-            
             <article className="group relative pl-4 border-l-2 border-transparent hover:border-slate-300 transition-colors">
               <div className="flex justify-between items-baseline mb-2">
-                <a 
-                  href="https://convergencia.uaemex.mx/article/view/20656" 
-                  target="_blank" 
+                <a
+                  href="https://convergencia.uaemex.mx/article/view/20656"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-xl font-serif font-bold text-slate-900 group-hover:underline decoration-1 underline-offset-4"
                 >
@@ -95,9 +140,9 @@ const Portfolio = () => {
 
             <article className="group relative pl-4 border-l-2 border-transparent hover:border-slate-300 transition-colors">
               <div className="flex justify-between items-baseline mb-2">
-                <a 
-                  href="http://acrossoverepisode.com/" 
-                  target="_blank" 
+                <a
+                  href="http://acrossoverepisode.com/"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-xl font-serif font-bold text-slate-900 group-hover:underline decoration-1 underline-offset-4"
                 >
@@ -120,9 +165,9 @@ const Portfolio = () => {
 
             <article className="group relative pl-4 border-l-2 border-transparent hover:border-slate-300 transition-colors">
               <div className="flex justify-between items-baseline mb-2">
-                <a 
-                  href="https://seppo0010.github.io/ley-omnibus/" 
-                  target="_blank" 
+                <a
+                  href="https://seppo0010.github.io/ley-omnibus/"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-xl font-serif font-bold text-slate-900 group-hover:underline decoration-1 underline-offset-4"
                 >
@@ -130,7 +175,7 @@ const Portfolio = () => {
                 </a>
               </div>
               <p className="text-slate-600 mb-3 leading-relaxed">
-                Web para mostrar fácilmente los cambios normativos introducidos por el proyecto de Ley de Bases y Puntos de Partida para la Libertad de los Argentinos. 
+                Web para mostrar fácilmente los cambios normativos introducidos por el proyecto de Ley de Bases y Puntos de Partida para la Libertad de los Argentinos.
               </p>
               <div className="flex gap-3 text-xs font-mono text-slate-500 uppercase tracking-tight">
                 <span>Full Stack</span>
@@ -141,7 +186,7 @@ const Portfolio = () => {
 
           </div>
         </section>
-        
+
         <footer className="mt-24 pt-8 border-t border-slate-100 text-center text-slate-400 text-sm">
           <p>© {new Date().getFullYear()} Sebastián Ariel Waisbrot</p>
         </footer>
