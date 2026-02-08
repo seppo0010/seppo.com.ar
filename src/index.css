@@ -1,8 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 @theme {
   --font-sans: "Inter", sans-serif;
   --font-serif: "Merriweather", serif;
   
-  --color-paper: #fcfcfc; 
+  --color-paper: #fcfcfc;
+}
+
+@media print {
+  .dark {
+    color-scheme: light;
+  }
+  .dark * {
+    background-color: white !important;
+    color: black !important;
+    border-color: #e2e8f0 !important;
+    box-shadow: none !important;
+  }
 }
