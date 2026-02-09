@@ -71,7 +71,7 @@ const Portfolio = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
             <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 p-5 rounded-sm shadow-sm">
               <h3 className="font-bold text-slate-800 dark:text-slate-200 mb-1">Justicia Digital</h3>
-              <p className="text-sm text-slate-500 dark:text-slate-400 mb-2">Ayudante alumno • Departamento de Ciencias Sociales • UBA • 2020 en adelante</p>
+              <p className="text-sm text-slate-500 dark:text-slate-400 mb-2">Departamento de Ciencias Sociales • UBA • 2020 en adelante</p>
               <span className="text-xs bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 px-2 py-1 rounded font-medium">
                 Ayudante
               </span>
@@ -79,7 +79,7 @@ const Portfolio = () => {
 
             <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 p-5 rounded-sm shadow-sm">
               <h3 className="font-bold text-slate-800 dark:text-slate-200 mb-1">Análisis Económico y Financiero</h3>
-              <p className="text-sm text-slate-500 dark:text-slate-400 mb-2">Ayudante alumno • Cátedra Di Pelino • UBA • 2024 en adelante</p>
+              <p className="text-sm text-slate-500 dark:text-slate-400 mb-2">Cátedra Di Pelino • UBA • 2024 en adelante</p>
               <span className="text-xs bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 px-2 py-1 rounded font-medium">
                 Ayudante
               </span>
@@ -87,7 +87,7 @@ const Portfolio = () => {
 
             <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 p-5 rounded-sm shadow-sm">
               <h3 className="font-bold text-slate-800 dark:text-slate-200 mb-1">Elementos de Derecho Administrativo</h3>
-              <p className="text-sm text-slate-500 dark:text-slate-400 mb-2">Ayudante alumno • Cátedra Balbín • UBA • 2025 en adelante</p>
+              <p className="text-sm text-slate-500 dark:text-slate-400 mb-2">Cátedra Balbín • UBA • 2025 en adelante</p>
               <span className="text-xs bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 px-2 py-1 rounded font-medium">
                 Ayudante
               </span>
