@@ -247,6 +247,27 @@ const Portfolio = () => {
               </div>
             </article>
 
+            <article className="group relative pl-4 border-l-2 border-transparent hover:border-slate-300 dark:hover:border-slate-600 transition-colors">
+              <div className="flex justify-between items-baseline mb-2">
+                <a
+                  href="https://paddedmemes.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-lg sm:text-xl font-serif font-bold text-slate-900 dark:text-slate-100 group-hover:underline decoration-1 underline-offset-4"
+                >
+                  Padded Memes
+                </a>
+              </div>
+              <p className="text-slate-600 dark:text-slate-400 mb-3 leading-relaxed">
+                Repositorio de memes (no edgy) compartidos en un grupo de telegram, con buscador por texto y contenido.
+              </p>
+              <div className="flex gap-3 text-xs font-mono text-slate-500 dark:text-slate-500 uppercase tracking-tight">
+                <span>Full Stack</span>
+                <span>•</span>
+                <span>2022</span>
+              </div>
+            </article>
+
           </div>
         </section>
 
